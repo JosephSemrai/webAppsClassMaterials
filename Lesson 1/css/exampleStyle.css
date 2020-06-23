@@ -1,0 +1,34 @@
+.parent-div {
+  display: flex;
+}
+
+.child-div {
+  flex: 1;
+  color: blue;
+  font-weight: bold;
+}
+
+.container {
+  margin: auto;
+  width: 40%;
+}
+
+body {
+  font-family: 'Istok Web', sans-serif;
+}
+
+button {
+  padding: 50px;
+}
+
+#dynamicContent {
+  color: black;
+}
+
+#dynamicContent::before {
+  content: "Input text: "
+}
+
+#testButton {
+  font-weight: bold;
+}
