@@ -1,0 +1,33 @@
+.title {
+  color: gray;
+  font-size: 40;
+  font-weight: bold;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+body {
+  font-family: 'Istok Web', sans-serif;
+}
+
+#descriptionElement {
+  color: red;
+  padding: 20px;
+}
+
+#descriptionElement::before {
+  content: "Description: "
+}
+
+.parent-div {
+  display: flex;
+}
+
+.child-div {
+  flex: 1;
+}
+
+
